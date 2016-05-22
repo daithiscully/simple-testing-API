@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+  <test name="Test">
+    <classes>
+      <class name="com.david.SimpleTestingApiApplicationTests"/>
+      <class name="com.david.simple_testing.databaseTests.TestUpdateStepDatabase"/>
+      <class name="com.david.simple_testing.databaseTests.InsertDataToAllTablesTest"/>
+      <class name="com.david.simple_testing.databaseTests.TestUpdateSuiteDatabase"/>
+      <class name="com.david.simple_testing.databaseTests.TestUpdateProjectDatabase"/>
+      <class name="com.david.simple_testing.databaseTests.ReadDataFromDatabaseWithAbstract"/>
+      <class name="com.david.simple_testing.databaseTests.TestUpdateInisTestDatabase"/>
+      <class name="com.david.simple_testing.databaseTests.InsertDeleteProjectInDatabaseTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
